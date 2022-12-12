@@ -1,0 +1,102 @@
+.hero {
+    background-color: #20262D;
+    font-family: 'Roboto Condensed', cursive;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-style: double;
+    flex-direction: column;
+    background-color: #302F2F;
+    color: white;
+}
+
+.nama {
+    padding-bottom: 1%;
+}
+
+.submit {
+    margin-top: 5%;
+    padding-right: 30%;
+}
+
+.loginWrapper {
+    border-style: double;
+    border-color: white;
+    height: 500px;
+    background-color: #1E252C;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    color: white;
+    justify-content: center;
+}
+
+.tulisanLogin {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    top: 25%;
+}
+
+@media only screen and (max-width: 480px) {
+    .tulisanLogin {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        top: 15%;
+    }
+    .login {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        border-style: double;
+        flex-direction: column;
+        background-color: #302F2F;
+        color: white;
+    }
+    .loginWrapper {
+        border-style: double;
+        border-color: white;
+        height: 300px;
+        background-color: #1E252C;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+        margin-bottom: 10%;
+        color: white;
+        justify-content: center;
+    }
+    .submit {
+        display: flex;
+        margin-top: 5%;
+        margin-right: 13%;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 990px) {
+    .submit {
+        margin-top: 5%;
+        margin-right: 25%;
+    }
+}
